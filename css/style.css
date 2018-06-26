@@ -1,0 +1,187 @@
+#navigation .navbar {
+    background-color: #424242;
+}
+
+#navigation .navbar-brand {
+    color: turquoise;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+#navigation .nav-link {
+    color: #fffffa;
+    float: right;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+#navigation i {
+    color: turquoise;
+}
+
+#navigation .nav-flex-icons {
+    float: right;
+}
+
+#about {
+    margin: 10rem auto auto auto;
+    font-weight: 700;
+}
+
+#about .lead,
+#about h5 {
+    color: #424242;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+#about h1 {
+    color: turquoise;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+#about .text-biography {
+    color: turquoise;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    49% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+#about blink {
+    animation: blink 1.0s infinite;
+    color: turquoise;
+    font-size: 2.2rem;
+}
+
+#technology img {
+    margin: 1rem auto;
+}
+
+#projects .live {
+    color: turquoise;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+#projects .card {
+    color: #000;
+}
+
+#projects .card-title {
+    font-weight: 700;
+}
+
+#projects .card-body {
+    text-align: center;
+}
+
+#contact {
+    margin-bottom: 3.5rem;
+}
+
+#contact h4,
+#contact p {
+    font-weight: 700;
+    margin: 20px auto;
+}
+
+#contact a {
+    margin: auto 10px;
+}
+
+#contact img:hover {
+    background-color: turquoise;
+    border-radius: 6px;
+}
+
+@media only screen and (min-width:1224px) {
+    #navigation .first--block a:hover {
+        text-decoration: underline;
+        text-decoration-color: turquoise;
+    }
+    #about .lead,
+    #about h1,
+    #about h5 {
+        text-align: left;
+    }
+    #about h1 {
+        font-size: 40px;
+    }
+    #about .row {
+        margin: 20px auto;
+    }
+    #technology img {
+        margin: 40px auto;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Oswald, sans-serif;
+    background-color: #DFEAE7;
+}
+
+.admission {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 700;
+    font-size: 3rem;
+    letter-spacing: 0.6rem;
+    margin: 5rem auto;
+}
+
+hr {
+    max-width: 20%;
+    margin: 2em auto;
+    border: 0.1rem solid turquoise;
+    border-radius: 2px;
+    background-color: turquoise;
+}
+
+.logo-dot {
+    font-weight: bold;
+    font-size: 40px;
+    color: #f50e2d;
+}
+.btn-code {
+    background-color: #45DACA;
+    padding: .7rem 1.6rem;
+    /* font-size: .7rem; */
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    margin: .375rem;
+    border: 0;
+    border-radius: .125rem;
+    text-transform: uppercase;
+    white-space: normal;
+    word-wrap: break-word;
+    cursor: pointer;
+}
+.link-code {
+    color: #616161;
+    font-weight: 700;
+    font-size: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 1.5;
+}
+
+.link-code:hover {
+    color: #616161;
+    cursor: pointer;
+}
