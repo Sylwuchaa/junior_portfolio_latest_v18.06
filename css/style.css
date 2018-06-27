@@ -184,4 +184,14 @@ hr {
 .link-code:hover {
     color: #616161;
     cursor: pointer;
+    animation: pulse 1s;
+}
+
+.btn-code:hover {
+    animation: pulse 1s;
+}
+
+#projects .live:hover {
+    animation: bounce 2s;
+    transition: none;
 }
