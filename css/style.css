@@ -195,3 +195,13 @@ hr {
     animation: bounce 2s;
     transition: none;
 }
+
+#contact .footer-item:hover {
+    animation: shake 2s;
+    text-decoration: none;
+    color: #25292D;
+}
+
+.footer-item {
+    color: #25292D;
+}
