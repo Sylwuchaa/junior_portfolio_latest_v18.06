@@ -199,7 +199,8 @@ hr {
 #contact .footer-item:hover {
     animation: shake 2s;
     text-decoration: none;
-    color: #25292D;
+    color: #FF000C;
+
 }
 
 .footer-item {
