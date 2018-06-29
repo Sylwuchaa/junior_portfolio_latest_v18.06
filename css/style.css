@@ -4,7 +4,7 @@
 
 #navigation .navbar-brand {
     color: turquoise;
-    font-size: 1.8rem;
+    font-size: 2.8rem;
     font-weight: 700;
 }
 
@@ -38,7 +38,7 @@
 #about h1 {
     color: turquoise;
     font-weight: 700;
-    font-size: 1.8rem;
+    font-size: 10.8rem;
 }
 
 #about .text-biography {
@@ -94,9 +94,8 @@
 #contact h4,
 #contact p {
     font-weight: 700;
-    margin: 20px auto;
+    margin: 1.33rem auto;
 }
-
 #contact a {
     margin: auto 10px;
 }
@@ -117,18 +116,19 @@
         text-align: left;
     }
     #about h1 {
-        font-size: 40px;
+        font-size: 2.66rem;
     }
     #about .row {
-        margin: 20px auto;
+        margin: 1.33rem auto;
     }
     #technology img {
-        margin: 40px auto;
+        margin: 2.66rem auto;
     }
 }
 
 * {
     box-sizing: border-box;
+    font-size: 16px;
 }
 
 body {
@@ -154,7 +154,7 @@ hr {
 
 .logo-dot {
     font-weight: bold;
-    font-size: 40px;
+    font-size: 2.66rem;
     color: #f50e2d;
 }
 .btn-code {
