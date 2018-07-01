@@ -215,7 +215,7 @@ hr {
 @media screen and (max-width: 400px) {
     
     .navbar-brand {
-        max-width: 70vh;
+        max-width: 60vh;
     }
     body {
        padding-left: 5rem;
