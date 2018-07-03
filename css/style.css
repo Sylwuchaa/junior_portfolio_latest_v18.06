@@ -100,8 +100,7 @@ html {
     margin: 1.33rem auto;
 }
 #contact a {
-    margin: auto 10px;
-}
+    margin: auto 1px;
 
 #contact img:hover {
     background-color: turquoise;
